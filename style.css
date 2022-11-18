@@ -1,0 +1,29 @@
+body{
+    background-image: url(./assets/fondo\ de\ mercado.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    color: white;
+}
+ul{
+    display: flex;
+    color: white;
+}
+ol{
+    color: white;
+}
+a{
+    color: white;
+}
+figure{
+    display: flex;
+    margin: block start 8px;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+img{
+    width: 100px;
+}
