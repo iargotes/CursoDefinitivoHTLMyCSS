@@ -10,9 +10,11 @@ body{
 ul{
     display: flex;
     color: white;
+    padding-left: 2px;
 }
 ol{
     color: white;
+    padding-right: 2px;
 }
 a{
     color: white;
@@ -23,7 +25,10 @@ figure{
     margin-block-end: 0;
     margin-inline-start: 0;
     margin-inline-end: 0;
+   
 }
 img{
-    width: 100px;
+    width: 50px;
+    border: 1px solid;
+    border-radius: 66px;
 }
