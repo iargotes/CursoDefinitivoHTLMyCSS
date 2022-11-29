@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+.contenedor {
+    width: 25%;
+    margin: 0 auto;
+    border: 1 black dotted;
+}
+
+.box {
+    display:block;
+    background-color: grey;
+    padding-top: 35px;
+    border: 2px rgb(114, 113, 113) solid;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+    
+}
+#one{
+    position: relative;
+    left: 75px;
+    top: 30px;
+    padding-top: 15px;
+    border-radius: 10px;
+    background-color: red;
+    width:150px ;
+    height: 50px;
+}
