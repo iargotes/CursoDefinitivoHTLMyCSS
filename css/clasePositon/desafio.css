@@ -7,16 +7,22 @@ body{
     width: 100vw;
     height: 100vh;
     
+    
 }
 .contenedor {
-    width: 25%;
+    width: 80%;
     margin: 0 auto;
+    color: #eedfb4;
     border: 1 black dotted;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .box {
-    display:block;
-    background-color: grey;
+    
+   
     padding-top: 35px;
     border: 2px rgb(114, 113, 113) solid;
     border-radius: 25px;
@@ -26,13 +32,50 @@ body{
     text-align: center;
     
 }
+
 #one{
     position: relative;
-    left: 75px;
+    display: flex;
+    align-items: flex-end;
+    left: 0px;
     top: 30px;
     padding-top: 15px;
     border-radius: 10px;
-    background-color: red;
+    background-color: #2d1d15;
     width:150px ;
     height: 50px;
+    font-size: 70%;
+}
+#one .imageContainer {
+    width: 50px;
+    height: 50px;
+    
+}
+#one .image{
+    padding: 0;
+    margin: 0;
+    height:45px;
+    border-radius: 25px;
+    position: relative;
+    top: 4px;
+    
+}
+#one p{
+    position: relative;
+    top: -12px;
+    left: 10px;
+}
+#two {
+    background-image:url(https://i0.wp.com/avuelapluma.es/wp-content/uploads/2018/06/Libro-abierto.jpg?fit=700%2C472&ssl=1) ;
+    background-size: cover;
+    /* color: #2d1d15; */
+    font-size: 80%;
+    text-align: start;
+    
+}
+#two p{
+    padding-left: 5px;
+    background-color:  #2d1d15;
+    border-radius: 10px;
+    
 }
