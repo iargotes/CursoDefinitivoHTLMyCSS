@@ -12,8 +12,10 @@ body{
 
 .header {
     height: 10vh;
-    background-color: grey;
-    
+    background-color: #A50044;    
+}
+img{
+    width: 4rem;
 }
 figure, nav {
     display: inline-block;
@@ -42,22 +44,24 @@ main {
     height: 80vh;
   }
 .sideNav{
+    border-right: black solid;
     display: inline-block;
     position: absolute;
-    background-color: brown;
+    background-color: #EDBB00;;
     width: 20vw;
     height: 80vh;
     
 }
 .side_box{
-    background-color: pink;
+    border-radius:5rem ;
+    background-color: #DB0030;;
     height: 15vh;
     margin: 3vh;
     
     
 }
 .main{
-    background-color: darkgray;
+    background-color: #EDBB00;;
     display: inline-block;
     position: absolute;
     left: 20vw;
@@ -67,7 +71,7 @@ main {
     
 }
 .footer{
-    background-color: blueviolet;
+    background-color: #A50044;
     height: 10vh;
 }
 .nav_footer{
